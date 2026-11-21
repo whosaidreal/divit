@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Academic PDFWorks · Destek</title>
 <style>
-  :root { --bg: #f7f5f0; --fg: #1d2330; --muted: #5b6475; --line: #ddd8cc; --accent: #1d4e89; }
+  :root { --bg: #f7f5f0; --fg: #1d2330; --muted: #5b6475; --line: #ddd8cc; --accent: #1d4e89; --btn-fg: #ffffff; }
   @media (prefers-color-scheme: dark) {
-    :root { --bg: #12161f; --fg: #e8eaf0; --muted: #a3abbb; --line: #2b3242; --accent: #8fb4e8; }
+    :root { --bg: #12161f; --fg: #e8eaf0; --muted: #a3abbb; --line: #2b3242; --accent: #8fb4e8; --btn-fg: #12161f; }
   }
   body { margin: 0; background: var(--bg); color: var(--fg);
          font: 17px/1.6 -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; }
@@ -17,6 +17,8 @@
   .muted { color: var(--muted); font-size: 15px; }
   nav { margin-bottom: 24px; font-size: 15px; }
   a { color: var(--accent); }
+  .btn { display: inline-block; margin: 4px 8px 4px 0; padding: 10px 16px; border-radius: 8px; background: var(--accent);
+         color: var(--btn-fg); text-decoration: none; font-weight: 600; }
   hr { border: 0; border-top: 1px solid var(--line); margin: 48px 0; }
 </style>
 </head>
@@ -25,22 +27,32 @@
 <nav><a href="gizlilik.html">Gizlilik Politikası</a> · <a href="#en">English</a></nav>
 
 <h1>Academic PDFWorks</h1>
-<p class="muted">PDF, OCR, UYAP (UDF), Word ve ses araçları · iPhone</p>
+<p class="muted">PDF, OCR, UYAP (UDF), Word ve ses araçları · iPhone ve Windows</p>
 
-<p>Taranmış belgeleri aranabilir PDF yapar; PDF, görüntü, Word ve UYAP (UDF) dosyalarını dönüştürür; PDF'leri
-birleştirir, böler, sıkıştırır; ses kayıtlarını konuşmacıları ayırarak yazıya döker. Her şey telefonunuzda yapılır,
-dosyalarınız hiçbir yere gönderilmez.</p>
+<p>Taranmış belgeleri aranabilir PDF yapar; PDF, görüntü, Word, Excel ve UYAP (UDF) dosyalarını dönüştürür; PDF'leri
+birleştirir, böler, sıkıştırır; ses kayıtlarını konuşmacıları ayırarak yazıya döker. Her şey kendi cihazınızda
+yapılır, dosyalarınız hiçbir yere gönderilmez.</p>
+
+<h2>Windows için indir</h2>
+<p><a class="btn" href="https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Setup.exe">Kurulum dosyası</a>
+<a class="btn" href="https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Portable.exe">Taşınabilir sürüm</a></p>
+<p class="muted">Windows 10 ve 11, 64 bit. Kurulum dosyası programı yönetici izni istemeden kurar ve Başlat menüsüne ekler;
+taşınabilir sürüm kurulmadan, tek dosya olarak çalışır. Dosyalar henüz imzalı olmadığı için Windows ilk açılışta
+"Windows bilgisayarınızı korudu" uyarısı gösterebilir: <b>Ek bilgi › Yine de çalıştır</b>.
+<a href="https://github.com/whosaidreal/academic-pdfworks/releases">Bütün sürümler</a></p>
 
 <h2>Destek</h2>
 <p>Soru, öneri ya da hata bildirimi için e-posta gönderin: <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a><br>
-Hata bildirirken iPhone modelinizi, iOS sürümünüzü ve hangi işlemde sorun çıktığını yazmanız yeterli. Belgeniz
-gizli bilgi içeriyorsa göndermeyin; sorunu tarif etmeniz yeterli.</p>
+Hata bildirirken cihazınızı (iPhone modeli ya da Windows sürümü), program sürümünü ve hangi işlemde sorun çıktığını
+yazmanız yeterli. Belgeniz gizli bilgi içeriyorsa göndermeyin; sorunu tarif etmeniz yeterli.</p>
 
 <h2>Sık sorulanlar</h2>
-<p><b>İnternet gerekiyor mu?</b><br>Hayır. Yalnız "Sesi Metne Çevir" ilk kullanımda yazıya dökme modellerini (yaklaşık
-600 MB) bir kez indirir; sonra o da internetsiz çalışır.</p>
-<p><b>Çıktılar nereye kaydediliyor?</b><br>Dosyalar uygulamasında "iPhone'umda › Academic PDFWorks" klasörüne.
-İşlem bitince dosyayı paylaşabilir ya da başka bir yere kaydedebilirsiniz.</p>
+<p><b>İnternet gerekiyor mu?</b><br>Hayır. Yalnız isteğe bağlı paketler ilk kullanımda bir kez indirilir: iPhone'da
+"Sesi Metne Çevir"in modelleri (yaklaşık 600 MB); Windows'ta "Sesi Metne Çevir" ve "Ses ve Video" paketi (yaklaşık
+1,2 GB) ve "Fotoğrafları düzelt" paketi (yaklaşık 78 MB). Sonra onlar da internetsiz çalışır.</p>
+<p><b>Çıktılar nereye kaydediliyor?</b><br>iPhone'da Dosyalar uygulamasında "iPhone'umda › Academic PDFWorks"
+klasörüne. Windows'ta sayfadaki "Kayıt yeri"ne; boş bırakırsanız ilk dosyanın yanına. Asıl dosyalarınıza
+dokunulmaz.</p>
 <p><b>UYAP ile bağlantınız var mı?</b><br>Hayır. Uygulama UYAP Doküman Editörü'nün dosya biçimini (.udf) okuyup
 yazabilir; T.C. Adalet Bakanlığı ya da UYAP ile bir bağlantısı yoktur.</p>
 
@@ -48,11 +60,17 @@ yazabilir; T.C. Adalet Bakanlığı ya da UYAP ile bir bağlantısı yoktur.</p>
 
 <section id="en" lang="en">
 <h1>Academic PDFWorks</h1>
-<p class="muted">PDF, OCR, UYAP (UDF), Word and audio tools · iPhone</p>
+<p class="muted">PDF, OCR, UYAP (UDF), Word and audio tools · iPhone and Windows</p>
 
-<p>Makes scanned documents searchable, converts PDF, image, Word and UYAP (UDF) files, merges, splits and compresses
-PDFs, and transcribes recordings with speaker separation. Everything runs on your phone; your files are never
-uploaded. The app's interface is in Turkish.</p>
+<p>Makes scanned documents searchable, converts PDF, image, Word, Excel and UYAP (UDF) files, merges, splits and
+compresses PDFs, and transcribes recordings with speaker separation. Everything runs on your own device; your files
+are never uploaded. The app's interface is in Turkish.</p>
+
+<h2>Download for Windows</h2>
+<p><a class="btn" href="https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Setup.exe">Installer</a>
+<a class="btn" href="https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Portable.exe">Portable</a></p>
+<p class="muted">Windows 10 and 11, 64-bit. The files are not signed yet, so Windows may show "Windows protected your
+PC" on first start: <b>More info › Run anyway</b>.</p>
 
 <h2>Support</h2>
 <p>Questions, suggestions or bug reports: <a href="mailto:whosaidreal@gmail.com">whosaidreal@gmail.com</a></p>
