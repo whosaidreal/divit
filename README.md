@@ -18,11 +18,13 @@ Bu depo Academic PDFWorks'ün herkese açık sayfalarını ve Windows sürümler
 |---|---|
 | **Windows, kurulum dosyası** | [AcademicPDFWorks_Setup.exe](https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Setup.exe): yönetici izni istemez, Başlat menüsüne ekler |
 | **Windows, taşınabilir** | [AcademicPDFWorks_Portable.exe](https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Portable.exe): kurulmadan, tek dosya olarak çalışır |
-| **Windows, Microsoft Store** | çok yakında |
+| **Windows, Microsoft Store** | [Microsoft Store'da aç](https://apps.microsoft.com/detail/9PJ38NG1TQ1H): kendiliğinden güncellenir, uyarı göstermez |
 | **iPhone, App Store** | çok yakında |
 
-Windows 10 ve 11, 64 bit; iPhone'da iOS 16.4 ve üzeri. Dosyalar kod imzalı değil: Windows "Windows bilgisayarınızı
-korudu" derse **Ek bilgi › Yine de çalıştır**. Her sürümün SHA-256 özeti [sürüm notunda](https://github.com/whosaidreal/academic-pdfworks/releases) yazar.
+Windows 10 ve 11, 64 bit; iPhone'da iOS 16.4 ve üzeri. Buradaki dosyalar kod imzalı değil: Windows "Windows
+bilgisayarınızı korudu" derse **Ek bilgi › Yine de çalıştır**. Her sürümün SHA-256 özeti [sürüm notunda](https://github.com/whosaidreal/academic-pdfworks/releases) yazar.
+Bilgisayarda tek bir Academic PDFWorks kalır: kurulum dosyası Microsoft Store sürümünü bulursa onun yerine geçmeyi
+önerir; ayarlar ve indirilen paketler korunur.
 
 ## Neler yapar?
 
@@ -55,5 +57,6 @@ with speaker separation. Everything runs on your own device. The interface is in
 [Download](https://whosaidreal.github.io/academic-pdfworks/indir.html) ·
 [Support](https://whosaidreal.github.io/academic-pdfworks/destek.html#en) ·
 [Privacy](https://whosaidreal.github.io/academic-pdfworks/gizlilik.html#en).
-The installer is not code-signed, so Windows may warn on first start (More info › Run anyway). The app bundles
+It is also on the [Microsoft Store](https://apps.microsoft.com/detail/9PJ38NG1TQ1H), which updates it automatically.
+The installer here is not code-signed, so Windows may warn on first start (More info › Run anyway). The app bundles
 unmodified open-source components; see [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) for their licences.
