@@ -1,29 +1,29 @@
 <p align="center"><img src="img/simge-180.png" width="96" height="96" alt=""></p>
-<h1 align="center">Academic PDFWorks</h1>
+<h1 align="center">Divit</h1>
 <p align="center"><b>PDF, OCR, UYAP (UDF), Word, Excel ve ses araçları tek programda.</b><br>
 Her şey kendi bilgisayarınızda ya da telefonunuzda yapılır; dosyalarınız hiçbir yere gönderilmez.</p>
 <p align="center">
-  <a href="https://whosaidreal.github.io/academic-pdfworks/indir.html"><b>⬇ İndir</b></a> ·
-  <a href="https://whosaidreal.github.io/academic-pdfworks/">Tanıtım sayfası</a> ·
-  <a href="https://whosaidreal.github.io/academic-pdfworks/destek.html">Destek</a> ·
-  <a href="https://whosaidreal.github.io/academic-pdfworks/gizlilik.html">Gizlilik</a>
+  <a href="https://whosaidreal.github.io/divit/indir.html"><b>⬇ İndir</b></a> ·
+  <a href="https://whosaidreal.github.io/divit/">Tanıtım sayfası</a> ·
+  <a href="https://whosaidreal.github.io/divit/destek.html">Destek</a> ·
+  <a href="https://whosaidreal.github.io/divit/gizlilik.html">Gizlilik</a>
 </p>
-<p align="center"><img src="img/pc-ana.webp" width="860" alt="Academic PDFWorks'ün Windows'taki ana ekranı"></p>
+<p align="center"><img src="img/pc-ana.webp" width="860" alt="Divit'in Windows'taki ana ekranı"></p>
 
-Bu depo Academic PDFWorks'ün herkese açık sayfalarını ve Windows sürümlerini barındırır. Kaynak kodu burada değildir.
+Bu depo Divit'in herkese açık sayfalarını ve Windows sürümlerini barındırır. Kaynak kodu burada değildir.
 
 ## İndir
 
 | | |
 |---|---|
-| **Windows, kurulum dosyası** | [AcademicPDFWorks_Setup.exe](https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Setup.exe): yönetici izni istemez, Başlat menüsüne ekler |
-| **Windows, taşınabilir** | [AcademicPDFWorks_Portable.exe](https://github.com/whosaidreal/academic-pdfworks/releases/latest/download/AcademicPDFWorks_Portable.exe): kurulmadan, tek dosya olarak çalışır |
+| **Windows, kurulum dosyası** | [Divit_Setup.exe](https://github.com/whosaidreal/divit/releases/latest/download/Divit_Setup.exe): yönetici izni istemez, Başlat menüsüne ekler |
+| **Windows, taşınabilir** | [Divit_Portable.exe](https://github.com/whosaidreal/divit/releases/latest/download/Divit_Portable.exe): kurulmadan, tek dosya olarak çalışır |
 | **Windows, Microsoft Store** | [Microsoft Store'da aç](https://apps.microsoft.com/detail/9PJ38NG1TQ1H): kendiliğinden güncellenir, uyarı göstermez |
 | **iPhone, App Store** | çok yakında |
 
 Windows 10 ve 11, 64 bit; iPhone'da iOS 16.4 ve üzeri. Buradaki dosyalar kod imzalı değil: Windows "Windows
-bilgisayarınızı korudu" derse **Ek bilgi › Yine de çalıştır**. Her sürümün SHA-256 özeti [sürüm notunda](https://github.com/whosaidreal/academic-pdfworks/releases) yazar.
-Bilgisayarda tek bir Academic PDFWorks kalır: kurulum dosyası Microsoft Store sürümünü bulursa onun yerine geçmeyi
+bilgisayarınızı korudu" derse **Ek bilgi › Yine de çalıştır**. Her sürümün SHA-256 özeti [sürüm notunda](https://github.com/whosaidreal/divit/releases) yazar.
+Bilgisayarda tek bir Divit kalır: kurulum dosyası Microsoft Store sürümünü bulursa onun yerine geçmeyi
 önerir; ayarlar ve indirilen paketler korunur.
 
 ## Neler yapar?
@@ -42,21 +42,21 @@ Bilgisayarda tek bir Academic PDFWorks kalır: kurulum dosyası Microsoft Store 
   <img src="img/iphone-donustur.webp" width="270" alt="Her Şeyi Dönüştür">
 </p>
 
-Hesap, reklam ya da izleme yoktur. Arayüz Türkçedir. UYAP, T.C. Adalet Bakanlığı'nın sistemidir; Academic PDFWorks
+Hesap, reklam ya da izleme yoktur. Arayüz Türkçedir. UYAP, T.C. Adalet Bakanlığı'nın sistemidir; Divit
 Bakanlıkla ya da UYAP ile bağlantılı değildir.
 
-Academic PDFWorks, açık kaynaklı bileşenleri (Qt / PySide6, Tesseract OCR, pikepdf, Pillow ve diğerleri) değiştirmeden
+Divit, açık kaynaklı bileşenleri (Qt / PySide6, Tesseract OCR, pikepdf, Pillow ve diğerleri) değiştirmeden
 içerir. Lisansları: [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt).
 
 ---
 
-**English.** This repository hosts the public pages and the Windows releases of Academic PDFWorks; the source code is
-not here. Academic PDFWorks is a free PDF, OCR, UYAP (UDF), Word, Excel and audio toolkit for Windows and iPhone: it makes
+**English.** This repository hosts the public pages and the Windows releases of Divit; the source code is
+not here. Divit is a free PDF, OCR, UYAP (UDF), Word, Excel and audio toolkit for Windows and iPhone: it makes
 scanned documents searchable, converts between document formats while keeping the layout, and transcribes recordings
 with speaker separation. Everything runs on your own device. The interface is in Turkish.
-[Download](https://whosaidreal.github.io/academic-pdfworks/indir.html) ·
-[Support](https://whosaidreal.github.io/academic-pdfworks/destek.html#en) ·
-[Privacy](https://whosaidreal.github.io/academic-pdfworks/gizlilik.html#en).
+[Download](https://whosaidreal.github.io/divit/indir.html) ·
+[Support](https://whosaidreal.github.io/divit/destek.html#en) ·
+[Privacy](https://whosaidreal.github.io/divit/gizlilik.html#en).
 It is also on the [Microsoft Store](https://apps.microsoft.com/detail/9PJ38NG1TQ1H), which updates it automatically.
 The installer here is not code-signed, so Windows may warn on first start (More info › Run anyway). The app bundles
 unmodified open-source components; see [THIRD_PARTY_NOTICES.txt](THIRD_PARTY_NOTICES.txt) for their licences.
