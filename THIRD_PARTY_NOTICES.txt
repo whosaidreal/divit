@@ -1,6 +1,6 @@
-Academic PDFWorks - üçüncü taraf bileşenler / third-party components
+Divit - üçüncü taraf bileşenler / third-party components
 
-Academic PDFWorks'ün kendi kodu (PDF okuyucu, çizici ve yazıcı motorları, belge,
+Divit'in kendi kodu (PDF okuyucu, çizici ve yazıcı motorları, belge,
 UDF, Word ve Excel motorları dahil) advocado'ya aittir. Programla birlikte
 aşağıdaki açık kaynak bileşenler dağıtılır; lisansları kapalı kaynaklı ve
 ücretsiz/ticari programlarda kullanılmalarına izin verir. LGPL kapsamındaki
@@ -15,7 +15,7 @@ sürümüyle birlikte bulunur.
 dağıtılmaz: kullanıcı istediğinde kendi resmî kaynaklarından indirilir ve kendi
 lisanslarıyla kullanılır.
 
-Academic PDFWorks's own code (including its PDF reader, renderer and writer
+Divit's own code (including its PDF reader, renderer and writer
 engines and its document, UDF, Word and Excel engines) belongs to advocado. The
 open-source components below are distributed with it; their licences allow use
 in closed-source and free or commercial programs. The LGPL libraries (Qt /
