@@ -28,8 +28,8 @@ Bilgisayarda tek bir Divit kalır: kurulum dosyası Microsoft Store sürümünü
 
 ## Neler yapar?
 
-- **Her Şeyi Dönüştür:** PDF, Word, Excel, UYAP (UDF), görüntü ve metin dosyalarını birbirine çevirir; yazı tipleri,
-  tablolar ve sayfa düzeni korunur.
+- **Her Şeyi Dönüştür:** PDF, Word, Excel, PowerPoint, EPUB, UYAP (UDF), e-Yazışma Paketi (EYP), görüntü ve metin
+  dosyalarını birbirine çevirir; yazı tipleri, tablolar ve sayfa düzeni korunur.
 - **Aranabilir PDF (OCR):** taranmış belgeleri ve fotoğrafları aranabilir, kopyalanabilir PDF yapar (Türkçe ve İngilizce).
 - **Sesi Metne Çevir:** ses kayıtlarını ve WhatsApp sesli mesajlarını konuşmacıları ayırarak yazıya döker.
 - **Sıkıştır / Optimize Et, Böl, Birleştir, Şifre Kaldır:** kayıpsız; klasörleri topluca işler.
